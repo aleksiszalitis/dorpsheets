@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 800px;
+}
+
+article {
+  flex: 1 1 60%;
+}
+
+header {
+  background-color: green;
+}
+
+nav {
+  flex: 1 1 20%;
+  background-color: blue;
+  order: -1;
+}
+
+aside {
+  flex: 4 0 20%;
+  background-color: red
+}
+
+footer {
+  background-color: yellow;
+  flex-basis: 200px;
+}
