@@ -9,6 +9,7 @@ class SportsController < ApplicationController
   end
 
   def show
+  end
 
   def new
     @sport = Sport.new
