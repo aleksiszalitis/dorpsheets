@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
 class Sport < ApplicationRecord
-
-  validate :name, presence: true
+  validates :name, presence: true
 end
