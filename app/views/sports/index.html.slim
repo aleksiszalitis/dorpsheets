@@ -1,2 +1,6 @@
 = link_to('Add sport', new_sport_path)
-= render @sports
+table
+  thead
+    th = 'Name'
+  tbody
+    = render @sports
